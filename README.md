@@ -78,3 +78,46 @@ java P1
 - Button Click Event Handling
 - User Input through Text Fields
 - Simple and User-Friendly Design
+
+## 4. Sum of Numbers Using StringTokenizer in Java
+
+### Description
+This Java program demonstrates the use of `StringTokenizer` for processing and extracting numeric values from a string. The program accepts a line of input containing numbers separated by spaces and calculates their total sum.
+
+The application uses the `Scanner` class to read user input and `StringTokenizer` to divide the string into individual tokens. Each token is converted into an integer using `Integer.parseInt()` and added to the total sum using a loop.
+
+Through this program, I applied concepts such as string processing, tokenization, loops, input handling, and type conversion in Java. The program helped me improve my understanding of handling user input, manipulating strings, and performing arithmetic operations efficiently.
+
+### Concepts Used
+- Scanner Class
+- StringTokenizer
+- Loops
+- String Processing
+- Integer Conversion
+- User Input Handling
+
+### Compilation
+```bash
+javac Sum.java
+```
+
+### Execution
+```bash
+java Sum
+```
+
+### Sample Input
+```bash
+10 20 30 40
+```
+
+### Output
+```bash
+sum is : 100
+```
+
+### Features
+- Accepts Multiple Numbers in a Single Line
+- Tokenizes Input String
+- Calculates Total Sum
+- Simple Console-Based Application
