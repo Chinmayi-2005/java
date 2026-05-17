@@ -9,3 +9,37 @@ The program helps in understanding:
 - Inheritance
 - Command-Line Arguments
 - Try, Throw, and Catch Blocks
+
+2. GUI Dial Pad Using Java Swing
+
+### Description
+This Java program demonstrates the development of a simple GUI-based dial pad application using Java Swing and AWT event handling. The application contains numeric buttons from 0–9, a clear button, and a call button. Users can enter numbers into a text field by clicking the buttons.
+
+The program uses `JFrame`, `JButton`, `JTextField`, `GridLayout`, and `ActionListener` to create an interactive graphical user interface. The call button changes its label to “Hang up” when pressed and resets the interface when pressed again.
+
+This program helped in understanding GUI development, event handling, layout management, button actions, and Java Swing components.
+
+### Concepts Used
+- Java Swing
+- GUI Programming
+- Event Handling
+- ActionListener
+- JFrame and JButton
+- Layout Management
+
+### Compilation
+```bash
+javac GUI1.java
+```
+
+### Execution
+```bash
+java GUI1
+```
+
+### Features
+- Numeric Dial Pad
+- Interactive Buttons
+- Call and Hang Up Functionality
+- Text Field Display
+- GUI Layout using GridLayout
