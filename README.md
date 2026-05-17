@@ -10,7 +10,7 @@ The program helps in understanding:
 - Command-Line Arguments
 - Try, Throw, and Catch Blocks
 
-2. GUI Dial Pad Using Java Swing
+## 2. GUI Dial Pad Using Java Swing
 
 ### Description
 This Java program demonstrates the development of a simple GUI-based dial pad application using Java Swing and AWT event handling. The application contains numeric buttons from 0–9, a clear button, and a call button. Users can enter numbers into a text field by clicking the buttons.
@@ -43,3 +43,38 @@ java GUI1
 - Call and Hang Up Functionality
 - Text Field Display
 - GUI Layout using GridLayout
+
+## 3. Temperature Converter Using Java Swing
+
+### Description
+This Java program demonstrates the development of a GUI-based Temperature Converter using Java Swing and AWT event handling. The application allows users to enter temperature values in Celsius and convert them into Fahrenheit by clicking the convert button.
+
+The program uses components such as `JFrame`, `JTextField`, `JButton`, and `JLabel` to create an interactive graphical user interface. Event handling is implemented using the `ActionListener` interface to perform the temperature conversion operation when the button is clicked.
+
+The application also demonstrates the use of layout positioning, window handling, and exception handling concepts in Java GUI programming. Through this program, I improved my understanding of Swing components, event-driven programming, user interaction handling, and Java GUI development.
+
+### Concepts Used
+- Java Swing
+- GUI Programming
+- Event Handling
+- ActionListener
+- JFrame, JButton, JLabel, JTextField
+- Exception Handling
+- Layout Management
+
+### Compilation
+```bash
+javac P1.java
+```
+
+### Execution
+```bash
+java P1
+```
+
+### Features
+- Celsius to Fahrenheit Conversion
+- Interactive GUI Interface
+- Button Click Event Handling
+- User Input through Text Fields
+- Simple and User-Friendly Design
