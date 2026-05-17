@@ -116,6 +116,42 @@ java Sum
 sum is : 100
 ```
 
+## 5. Traffic Light Simulation Using Java Swing
+
+### Description
+This Java program demonstrates the development of a Traffic Light Simulation using Java Swing and AWT event handling. The application uses radio buttons to represent different traffic signals such as STOP, WAIT, and GO. When a user selects a radio button, the corresponding signal changes its background color to represent the actual traffic light behavior.
+
+The program uses components such as `JFrame`, `JPanel`, `JRadioButton`, `ButtonGroup`, and `GridLayout` to create an interactive graphical user interface. Event handling is implemented using the `ActionListener` interface to detect user actions and update the signal colors dynamically.
+
+Through this program, I applied concepts related to GUI programming, event-driven programming, color handling, layout management, and interactive user interface design in Java. The project helped me improve my understanding of Swing components and Java event handling mechanisms.
+
+### Concepts Used
+- Java Swing
+- GUI Programming
+- Event Handling
+- ActionListener
+- JRadioButton
+- JPanel and JFrame
+- GridLayout
+- Color Handling
+
+### Compilation
+```bash
+javac Traffic.java
+```
+
+### Execution
+```bash
+java Traffic
+```
+
+### Features
+- Traffic Signal Simulation
+- Interactive Radio Buttons
+- Dynamic Color Changes
+- GUI-Based Application
+- Event-Driven User Interaction
+
 ### Features
 - Accepts Multiple Numbers in a Single Line
 - Tokenizes Input String
